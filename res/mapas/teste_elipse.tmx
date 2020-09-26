@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2017.09.13" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextobjectid="22">
+ <tileset firstgid="1" name="gallery_16448_460_16892" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="../imagens/gallery_16448_460_68642.png" width="512" height="512"/>
+ </tileset>
+ <layer name="camada_1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyTZWBgkB3Fo3gUj+JRPIpJxAADMi1R
+  </data>
+ </layer>
+ <layer name="camada_2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0TkOgzAUhGFuG25ADYSlZQnQEkLCgYATACcI1Py15cJClhDLSJ9eMfI0Now7V0uLDr2kM4WrkgEjJkn3EK5K/pixSDpLuHvEhgMXTw17EWIkSDXslXijwgcefAQINey/kCFHoWGvxhc/NBveH+0/zpQV+dcfZA==
+  </data>
+ </layer>
+ <objectgroup name="objetos">
+  <object id="9" x="389" y="214" width="21" height="8">
+   <ellipse/>
+  </object>
+  <object id="10" x="390" y="246" width="20" height="8">
+   <ellipse/>
+  </object>
+  <object id="11" x="455" y="246" width="19" height="7">
+   <ellipse/>
+  </object>
+  <object id="13" x="455" y="211" width="19" height="11">
+   <ellipse/>
+  </object>
+  <object id="15" x="166" y="194" width="75" height="86">
+   <ellipse/>
+  </object>
+  <object id="16" x="193" y="332" width="93" height="79"/>
+  <object id="17" x="290" y="398" width="92" height="74"/>
+  <object id="18" x="387" y="403" width="26" height="72"/>
+  <object id="19" x="160" y="342" width="32" height="69"/>
+  <object id="20" x="160" y="500" width="32" height="67"/>
+  <object id="21" x="193" y="492" width="91" height="78"/>
+ </objectgroup>
+</map>
