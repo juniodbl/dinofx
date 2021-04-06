@@ -9,7 +9,6 @@ import br.com.engine.componentes.drawable.Cube;
 import br.com.engine.componentes.drawable.SpriteFont;
 import br.com.engine.core.GameObject;
 import br.com.engine.core.Scene;
-import br.com.engine.core.annotation.Bootable;
 import br.com.engine.input.KeyBoard;
 import javafx.scene.input.KeyCode;
 import javafx.scene.paint.Color;
@@ -30,7 +29,7 @@ public class SpriteEditor extends Scene
 		add( new SpriteFontBuilder()
 			.setColor( Color.RED )
 			.setSize( 12 )
-			.setText( " * Add Quadrado - Aperte 'A' \n * Setas para Mover Objetos selecionados \n * Objetos selecionados são amarelos." )
+			.setText( " * Add Quadrado - Aperte 'A' \n * Setas para Mover Objetos selecionados \n * Objetos selecionados sï¿½o amarelos." )
 			.build( ) );
 		
 		GameObject scala = new SpriteFontBuilder()

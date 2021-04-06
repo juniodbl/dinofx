@@ -5,6 +5,9 @@
     "scenes":
     [
         {
+            "scene": "br.com.niveis.Menu",
+            "type": "java"
+        },{
             "scene": "qqcoisa.MinhaSena",
             "type": "java"
         },{
@@ -15,6 +18,9 @@
             "type": "java"
         },{
             "scene": "br.com.niveis.Level002",
+            "type": "java"
+        },{
+            "scene": "editor.SpriteEditor",
             "type": "java"
         }
     ]
