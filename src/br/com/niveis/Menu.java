@@ -7,6 +7,7 @@ import java.util.List;
 import br.com.engine.componentes.audio.AudioEffect;
 import br.com.engine.componentes.builders.ScriptBuilder;
 import br.com.engine.componentes.drawable.SpriteFont;
+import br.com.engine.core.ControleBase;
 import br.com.engine.core.GameObject;
 import br.com.engine.core.Scene;
 import br.com.engine.core.annotation.Bootable;
@@ -95,6 +96,10 @@ public class Menu extends Scene {
             }
 
             elapsedTransitionTime = 0;
+        });
+
+        KeyBoard.infInstace().ifKeyPressed(KeyCode.ENTER, ()->{
+            ControleBase.getInstance().nextScene(current);
         });
 
         if( current > this.fonts.size() - 1 || current < 0 ) {
