@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.1" orientation="orthogonal" renderorder="right-up" width="40" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="75">
+ <tileset firstgid="1" name="Tileset 1" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="C:\code\workspace_personal\dinofx\src\main\resources\imagens\wood_tileset_3.png" width="512" height="512"/>
+  <wangsets>
+   <wangset name="Terrenos" type="corner" tile="-1">
+    <wangcolor name="flor" color="#ff0000" tile="54" probability="1"/>
+    <wangcolor name="grama" color="#00ff00" tile="65" probability="1"/>
+    <wangcolor name="flor2" color="#0000ff" tile="86" probability="1"/>
+    <wangcolor name="grama alta 2" color="#ff7700" tile="30" probability="1"/>
+    <wangtile tileid="13" wangid="0,0,0,4,0,0,0,0"/>
+    <wangtile tileid="14" wangid="0,0,0,4,0,4,0,0"/>
+    <wangtile tileid="15" wangid="0,0,0,0,0,4,0,0"/>
+    <wangtile tileid="29" wangid="0,4,0,4,0,0,0,0"/>
+    <wangtile tileid="30" wangid="0,4,0,4,0,4,0,4"/>
+    <wangtile tileid="31" wangid="0,0,0,0,0,4,0,4"/>
+    <wangtile tileid="45" wangid="0,4,0,0,0,0,0,0"/>
+    <wangtile tileid="46" wangid="0,4,0,0,0,0,0,4"/>
+    <wangtile tileid="47" wangid="0,0,0,0,0,0,0,4"/>
+    <wangtile tileid="48" wangid="0,0,0,2,0,0,0,0"/>
+    <wangtile tileid="49" wangid="0,0,0,2,0,2,0,0"/>
+    <wangtile tileid="50" wangid="0,0,0,0,0,2,0,0"/>
+    <wangtile tileid="54" wangid="0,0,0,1,0,0,0,0"/>
+    <wangtile tileid="55" wangid="0,0,0,0,0,1,0,0"/>
+    <wangtile tileid="64" wangid="0,2,0,2,0,0,0,0"/>
+    <wangtile tileid="65" wangid="0,2,0,2,0,2,0,2"/>
+    <wangtile tileid="66" wangid="0,0,0,0,0,2,0,2"/>
+    <wangtile tileid="70" wangid="0,1,0,0,0,0,0,0"/>
+    <wangtile tileid="71" wangid="0,0,0,0,0,0,0,1"/>
+    <wangtile tileid="80" wangid="0,2,0,0,0,0,0,0"/>
+    <wangtile tileid="81" wangid="0,2,0,0,0,0,0,2"/>
+    <wangtile tileid="82" wangid="0,0,0,0,0,0,0,2"/>
+    <wangtile tileid="86" wangid="0,0,0,3,0,0,0,0"/>
+    <wangtile tileid="87" wangid="0,0,0,0,0,3,0,0"/>
+    <wangtile tileid="102" wangid="0,3,0,0,0,0,0,0"/>
+    <wangtile tileid="103" wangid="0,0,0,0,0,0,0,3"/>
+   </wangset>
+  </wangsets>
+ </tileset>
+ <tileset firstgid="257" name="gallery_16448_460_68642" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="C:\code\workspace_personal\dinofx\src\main\resources\imagens\gallery_16448_460_68642.png" width="512" height="512"/>
+ </tileset>
+ <layer id="1" name="Camada de Tiles 1" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1kEPwTAUwPFuiXBHuC4IVxy4yThwE/b9v4vXsKSpTt/j7W2TJ/ldlkb/a6uRGGMSxxpswNZ7XqX8YMZyyMERnATnpLiBOyha0IJF3XNpuufV+kQD4b6JZwf2geelKeG70+QJOy401p//DC4N9WHWL8b2pS8S+7skWoGeYJ/l3m9Zueb+HoAhGIExYx/mDOQmfr/ZnhmYgwVh3k9zY8ZYmPstNbRzx9kXkhHHS/dJ4Fq7X9eyLm3tUv+lC79xSp/U+xy8Obnf58qgrvXmaPumD0v7tE/75Pq4/yty9rltsT7JuznUF5u3ib4unD/t0z7te/cAoyhySQ==
+  </data>
+ </layer>
+ <layer id="2" name="Camada de Tiles 2" width="40" height="40" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1sdKA0EAh/Hswat6EW8afQCNPoC+gT6D5QUsL2QvN3u92HvvgVgvKtguNrB8gV2QsKPB2ZkdkvnD75CBLB+7WUgk8v8VodgVFZzLklmZqxwxA/tEs322z/bZvmzo28AmtrBtYF8CpzjDuYF9d7jHAx419eUiD/lp9H3gE1/JD46ePu/60R9nbWhHBzrRhW70oBd96E/5vqo+v/8kAxjEEIYxglGMYRwTmNTU57cZzGIO81jAIpawjBWshti3g13sYR8HOMQRjnGCuOK+KUwL+i5wiSvUoR4NaMQ1bnCruG8N64K+JzShGS1oxTNe8Io3vCvuC2re+yUrlnrhLFsVqiWomuO2mbpkW23YEb+sJuyAP2b75Gb75Gb75JaJfYVO4BnCZeL90znZvhzFzzrdvhI6Sn1aCgzpq6CjUuN74S3I3983fzR6eA==
+  </data>
+ </layer>
+ <objectgroup id="3" name="colisao" visible="0">
+  <object id="21" x="-1" y="198" width="414" height="143"/>
+  <object id="24" x="526" y="351" width="102" height="42"/>
+  <object id="26" x="551" y="391" width="49" height="50"/>
+  <object id="28" x="545" y="322" width="60" height="27"/>
+  <object id="31" x="339" y="458" width="284" height="162"/>
+  <object id="32" x="106" y="583" width="48" height="54"/>
+  <object id="33" x="1089" y="1060" width="28" height="25"/>
+  <object id="35" name="fim" x="1185" y="1164" width="27" height="50"/>
+  <object id="36" name="torre" x="997" y="1196" width="14" height="47"/>
+  <object id="37" x="1029" y="1191" width="24" height="54"/>
+  <object id="69" name="wall_up" x="0" y="0" width="1280" height="5"/>
+  <object id="70" name="wall_left" x="0" y="0" width="5" height="1280"/>
+  <object id="73" name="wall_down" x="0" y="1275" width="1280" height="5"/>
+  <object id="74" name="wall_right" x="1275" y="0" width="5" height="1280"/>
+ </objectgroup>
+</map>

@@ -1,6 +1,5 @@
-package br.com.niveis;
+package br.com.game.niveis.examples;
 
-import java.security.Key;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,19 +32,17 @@ public class Menu extends Scene {
         SpriteFont font = new SpriteFont("font", 50);
         GameObject itemMenu0 = new GameObject("itensMenu");
         itemMenu0.addComponente(font);
-        font.setText("Escolha o Mapa");
+        font.setText("O Jogo da LURYA!!!");
         font.setColor(Color.RED);
         itemMenu0.getPosition().setPosition(10, 0);
         add(itemMenu0);
 
-        createItemMenu("1- Mapa 001");
-        createItemMenu("2- Mapa 002");
-        createItemMenu("3- Mapa 003");
-        createItemMenu("4- Mapa 004");
-        createItemMenu("5- Mapa 005");
-        createItemMenu("6- Mapa 006");
-        createItemMenu("7- Mapa 007");
-        createItemMenu("8- Mapa 008");
+        createItemMenu("1- Menu");
+        createItemMenu("2- Spaceship");
+        createItemMenu("3- QuedaLivre");
+        createItemMenu("4- Level001");
+        createItemMenu("5- Level002");
+        createItemMenu("6- TiledMapGame");
 
         GameObject obj = new GameObject("audio");
         this.bgSound = new AudioEffect("rainy_city.wav");
